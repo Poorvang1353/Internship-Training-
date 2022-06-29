@@ -2,8 +2,17 @@
 <html lang="en">
 <head>
     <title>Types of CSS</title>
+    <style type="text/css">
+        
+        div{background-color: rgb(170, 232, 160); height: 200px; width: 200px; border: 5px solid gray; border-radius: 30px; box-shadow: 7px 7px 10px rgb(43, 42, 42); margin: 55px 515px;}
+        .div{background-color: rgb(235, 197, 135); height: 200px; width: 200px; border: 5px solid gray; border-radius: 30px; box-shadow: 7px 7px 10px rgb(43, 42, 42); margin: 55px 515px;}
+        #div{background-color: rgb(164, 152, 233); height: 200px; width: 200px; border: 5px solid gray; border-radius: 30px; box-shadow: 7px 7px 10px rgb(43, 42, 42); margin: 55px 515px;}
+    </style>
 </head>
 <body>
-    <div><center>Inline CSS</center></div>
+    <div style="background-color: skyblue; height: 200px; width: 200px; border: 5px solid gray; border-radius: 30px; box-shadow: 7px 7px 10px rgb(43, 42, 42); margin: 55px 515px;"> <center>Inline CSS</center> </div>
+    <div ><center>Internal CSS</center></div>
+    <div class="div"><center>Internal CSS - Class</center></div>
+    <div id="div"><center>Internal CSS - Id</center></div>
 </body>
 </html>
