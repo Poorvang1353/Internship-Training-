@@ -8,14 +8,23 @@
     <style type="text/css">
         #mainUL li ul li{display: none;}
         #mainUL li:hover ul li{display: block;}
+        /* #mainUL li ul li ul li{display: none;} */
+        #mainUL li:hover ul li ul li{display: none;}
+        #mainUL li ul li:hover ul li{display: block;}
+
     </style>
 </head>
 <body>
     <ul  id="mainUL">
         <li>Socet
-            <ul>
+            <ul >
                 <li>CE</li>
-                <li>IT</li>
+                <li>IT
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                    </ul>
+                </li>
             </ul>
         </li>
     </ul>
