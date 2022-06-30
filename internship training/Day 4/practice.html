@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .background{ 
+            background: url(pexels-photo-3705943.jpeg) repeat;
+            border: 2px solid black;
+            border-radius: 50%;
+            background-position: center;
+            height: 100px;
+            margin-left: 100px;
+            margin-top: 50px;
+            width: 100px;
+        }
+        
+        .ylink{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(150, 185, 216);
+            border: 2px solid black;
+            text-align: center;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        #main li ol li{display: none;}
+        #main li:hover ol li{display: block;}
+        #main li:hover ol li ol li{display: none;}
+        #main li ol li ol li{display: none;}
+        #main li ol li:hover ol li{display: block;}
+
+    </style>
+</head>
+<body>
+    <div class="background" >
+    </div>
+    <div class="ylink">
+        <a href="https://youtu.be/JZAvl9Tv4fE">click here</a> 
+    </div>
+    <span>
+        <ol id="main">
+            <li >contact
+                <ol id="main">
+                    <li>krishna</li>
+                    <li>deep</li>
+                    <li >manan
+                        <ol>
+                            <li>A</li>
+                            <li>B</li>
+                            <li>C</li>
+                        </ol>
+                    </li>   
+                </ol>
+            </li>
+        </ol>
+    
+    </span>
+  
+</body>
+</html>
